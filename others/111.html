@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .word{
+            font-size: 100px;
+            font-family: "黑体";
+            color: crimson;
+            background: chartreuse;
+        }
+        .url{
+            font-size: 200px;
+            font-family: "黑体";
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <span class="word">色情网站！！！</span>
+<div align="center">
+    <span id="sp" class="word">复制下方IP地址，用浏览器打开</span>
+</div>
+<div align="center">
+    <span class="url">148.70.18.126</span></div>
+</div>
+<script type="text/javascript">
+     function show(){
+     var wordid=document.getElementById("sp");
+     if(wordid.style.visibility == "visible")
+      wordid.style.visibility = "hidden";
+     else
+      wordid.style.visibility = "visible";
+     setTimeout('show()',80);
+      }
+      show();
+
+</script>
+</body>
+</html>
